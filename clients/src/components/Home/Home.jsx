@@ -16,10 +16,14 @@ const Home = () => {
     const { user } = await res.json();
     setUser1(user);
   };
-  useEffect(async () => {
+  const allUser = async () => {
     const res = await fetch("http://localhost:8000/api/v1/user/all");
     const { user } = await res.json();
     setUser1(user);
+  };
+  useEffect(() => {
+    allUser();
+    return () => {};
   }, []);
   return (
     <div className="search">

@@ -11,7 +11,7 @@
 .searchForm {
   background-color: whitesmoke;
   height: 100%;
-  width: 50%;
+  width: 90%;
   border-radius: 30px;
   box-sizing: border-box;
   padding: 2vmax;
@@ -23,7 +23,7 @@
 .searchForm > input {
   box-sizing: border-box;
   padding: 1vmax 2vmax;
-  width: 80%;
+  width: 50%;
   border-radius: 40px;
   border: 1px solid #ccc;
   margin: 2vmax;
