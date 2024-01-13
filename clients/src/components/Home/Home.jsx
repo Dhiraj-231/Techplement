@@ -32,7 +32,7 @@ const Home = () => {
 
         <input
           type="text"
-          placeholder="Enter Search Name"
+          placeholder="Search your query.."
           required
           onChange={(e) => setQuery(e.target.value)}
         />
