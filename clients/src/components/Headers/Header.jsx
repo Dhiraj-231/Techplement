@@ -32,13 +32,6 @@ const Header = () => {
           <SearchOutlined />
         )}
       </Link>
-      <Link to="/account" onClick={() => setTab("/account")}>
-        {tab === "/account" ? (
-          <AccountCircle style={{ color: "black" }} />
-        ) : (
-          <AccountBoxOutlined />
-        )}
-      </Link>
     </div>
   );
 };
